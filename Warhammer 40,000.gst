@@ -563,7 +563,7 @@
         <categoryLink name="Allied Units" hidden="false" id="8d39-1cfc-6e44-2dae" targetId="887b-ab87-92a2-20f5"/>
       </categoryLinks>
     </forceEntry>
-    <forceEntry name="Boarding Action" hidden="true" id="1d6e-2579-8e7f-1ed4">
+    <forceEntry name="Boarding Action" hidden="false" id="">
       <categoryLinks>
         <categoryLink id="4f79-1f3a-7f95-ae21" name="Configuration" hidden="false" targetId="4ac9-fd30-1e3d-b249" primary="false"/>
         <categoryLink id="73b6-764d-b0ab-977c" name="Epic Hero" hidden="false" targetId="4f3a-f0f7-6647-348d" primary="false"/>
@@ -723,7 +723,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="4. Boarding Patrol (500 Point Limit)" hidden="false" id="21b-48a5-24c-152c">
               <modifiers>
-                <modifier type="set" value="true" field="hidden">
+                <modifier type="set" value="false" field="hidden">
                   <conditions>
                     <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="1d6e-2579-8e7f-1ed4" shared="true" includeChildForces="true"/>
                   </conditions>
